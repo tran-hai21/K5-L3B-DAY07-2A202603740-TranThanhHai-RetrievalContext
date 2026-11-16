@@ -1,0 +1,343 @@
+{
+  "dataset_name": "NuoiDayCon-Benchmark-Day07",
+  "description": "Benchmark 24 câu hỏi đánh giá Retrieval Context & Agentic RAG",
+  "total_questions": 24,
+  "splits": {
+    "dev": {
+      "total": 17,
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "test": {
+      "total": 7,
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "answerable_questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "question": "Nguyên tắc kỷ luật gốc 3R trong tài liệu gồm những điều kiện nào theo đúng thứ tự?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "01.03",
+          "evidence": "Respectful — Tôn trọng"
+        }
+      ],
+      "expected_answer": "Nguyên tắc 3R gồm 3 điều kiện: R1 (Respectful — Tôn trọng), R2 (Reasonable — Hợp lý), R3 (Revealed — Báo trước).",
+      "filter": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "question": "Theo nghiên cứu, việc bế ẵm và đáp ứng nhanh khi trẻ sơ sinh khóc trong năm đầu tiên có khiến trẻ bị hư hay không?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "01.01",
+          "evidence": "Bế nhiều sẽ hư.\"** Ngược lại: nghiên cứu dọc nhiều thập kỷ cho thấy trẻ được đáp ứng nhanh, nhất quán trong 12 tháng đầu có xu hướng **tự lập sớm hơn**"
+        }
+      ],
+      "expected_answer": "Không khiến trẻ hư. Trẻ được đáp ứng nhanh, nhất quán trong 12 tháng đầu có xu hướng tự lập sớm hơn vì không phải tốn năng lượng giám sát sự tin cậy của cha mẹ.",
+      "filter": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "question": "Vì sao khen trẻ bằng những câu như 'con giỏi quá' hay 'con thông minh quá' có thể gây tác động tiêu cực?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "01.04",
+          "evidence": "Khen thưởng đúng cách: vì sao 'giỏi quá' có thể làm trẻ kém đi"
+        }
+      ],
+      "expected_answer": "Khen tư chất cố định khiến trẻ sợ thất bại, né tránh thử thách khó để bảo vệ nhãn 'thông minh', và phụ thuộc vào sự công nhận từ bên ngoài.",
+      "filter": null
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "question": "Khi người lớn mất bình tĩnh với con, nguyên tắc hạ tầng và kế hoạch ngắt quãng có vai trò gì?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "01.05",
+          "evidence": "Bình tĩnh của người lớn là hạ tầng: thang 5 nấc & kế hoạch ngắt quãng"
+        }
+      ],
+      "expected_answer": "Bình tĩnh của người lớn là hạ tầng cảm xúc của gia đình. Khi mất bình tĩnh cần ngắt quãng (time-out) để não bộ hạ nhiệt trước khi kỷ luật con.",
+      "filter": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "question": "Khung 3C áp dụng trong kỷ luật tích cực gồm các trụ cột nào?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "02.01",
+          "evidence": "Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi"
+        }
+      ],
+      "expected_answer": "Khung 3C và 5 nguyên tắc trụ cột kỷ luật tích cực.",
+      "filter": null
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "question": "Làm thế nào để đưa ra mệnh lệnh có hiệu lực để con thực sự lắng nghe và hợp tác?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "02.02",
+          "evidence": "Lệnh có hiệu lực: kỹ thuật nói để con nghe (và nghe để con nói)"
+        }
+      ],
+      "expected_answer": "Sử dụng kỹ thuật nói để con nghe (và nghe để con nói), giao tiếp trực tiếp ở tầm mắt và đưa ra chỉ dẫn cụ thể.",
+      "filter": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "question": "Trong giai đoạn sơ sinh 0-12 tháng, tam giác nào mô tả nhu cầu cốt lõi và cách dỗ trẻ khóc?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "03.01",
+          "evidence": "Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh"
+        }
+      ],
+      "expected_answer": "Tam giác Ăn - Ngủ - Khóc và 5 bước dỗ trẻ sơ sinh.",
+      "filter": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "question": "Lịch ăn dặm 12 tháng đầu đời cần lưu ý tránh những sai lầm phổ biến nào?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "03.02",
+          "evidence": "Sữa mẹ, sữa công thức và ăn dặm: lịch 12 tháng và 7 sai lầm hay gặp"
+        }
+      ],
+      "expected_answer": "Cần lưu ý 7 sai lầm hay gặp về sữa mẹ, sữa công thức và ăn dặm trong 12 tháng đầu.",
+      "filter": null
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "question": "Ở giai đoạn trẻ 1-3 tuổi, cơn ăn vạ 2 tuổi có mấy pha diễn biến chính?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "04.02",
+          "evidence": "Cơn ăn vạ 2 tuổi: 3 pha, công thức phòng 5 phút và kịch bản xử lý tại nơi công cộng"
+        }
+      ],
+      "expected_answer": "Cơn ăn vạ 2 tuổi có 3 pha diễn biến, kèm công thức phòng ngừa 5 phút.",
+      "filter": {
+        "age_range": "1–3"
+      }
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "question": "Chiến lược xử lý hành vi cắn và đánh ở trẻ nhỏ lứa tuổi 1-3 tuổi là gì?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "04.04",
+          "evidence": "Cắn và đánh ở trẻ nhỏ, cùng chiến lược chuẩn bị có em"
+        }
+      ],
+      "expected_answer": "Cần có chiến lược ngăn chặn hành vi cắn và đánh, đồng thời chuẩn bị tâm lý khi nhà có em bé mới.",
+      "filter": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "question": "Đối với trẻ mẫu giáo 3-6 tuổi, lộ trình thích ứng khi con khóc vào lớp học kéo dài bao lâu?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "05.01",
+          "evidence": "Khóc khi vào lớp: lộ trình 4 tuần, tiêu chí chọn trường và cách làm việc với cô giáo"
+        }
+      ],
+      "expected_answer": "Lộ trình thích ứng kéo dài 4 tuần, kết hợp tiêu chí chọn trường và cách phối hợp với cô giáo.",
+      "filter": {
+        "age_range": "3–6"
+      }
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "question": "Những trò chơi nào giúp rèn luyện chức năng điều hành não bộ và phân công việc nhà cho trẻ mẫu giáo?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "05.02",
+          "evidence": "10 trò chơi xây chức năng điều hành (executive function) và việc nhà theo tuổi"
+        }
+      ],
+      "expected_answer": "10 trò chơi xây dựng chức năng điều hành (executive function) kết hợp việc nhà phân chia theo độ tuổi.",
+      "filter": null
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "question": "Khoa học não bộ giải thích thế nào về những hành vi kỳ quặc của con ở độ tuổi thiếu niên 10-14 tuổi?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "07.01",
+          "evidence": "Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con"
+        }
+      ],
+      "expected_answer": "Não tuổi teen đang trong quá trình tái cấu trúc, với 5 điều lý giải các biến đổi tâm sinh lý và hành vi bất thường.",
+      "filter": null
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "question": "Đâu là 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu tai nạn trẻ em cần biết trong gia đình?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "11.01",
+          "evidence": "Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết"
+        }
+      ],
+      "expected_answer": "Tai nạn là nguyên nhân tử vong hàng đầu; cần nhận diện 8 khu vực nguy hiểm trong nhà và nắm vững 7 kỹ thuật sơ cứu thiết yếu.",
+      "filter": null
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "question": "Quy tắc '2 tuần hoặc đổi cách' áp dụng như thế nào trong quy trình 72 giờ sửa đổi hành vi?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "12.01",
+          "evidence": "72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\""
+        }
+      ],
+      "expected_answer": "Thực hiện sửa đổi hành vi theo mẫu điền 72 giờ và lịch theo dõi, nếu sau 2 tuần kiên trì không có hiệu quả thì đổi cách thay vì tăng hình phạt.",
+      "filter": null
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "question": "Bốn góc độ để đọc và giải mã hành vi xấu của trẻ như một nhà điều tra gồm những góc độ nào?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "01.02",
+          "evidence": "Bốn góc độ: đọc hành vi xấu như một nhà điều tra"
+        }
+      ],
+      "expected_answer": "Bốn góc độ tiếp cận hành vi xấu của trẻ để tìm ra nguyên nhân ẩn giấu bên dưới thay vì chỉ trừng phạt triệu chứng bề ngoài.",
+      "filter": null
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "question": "Đối với trẻ sơ sinh từ 0-1 tuổi, hướng dẫn về giấc ngủ an toàn và lịch tiêm chủng tại Việt Nam gồm những nội dung gì?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "03.04",
+          "evidence": "Ngủ an toàn, lịch tiêm chủng Việt Nam, và sức khoẻ tinh thần sau sinh"
+        }
+      ],
+      "expected_answer": "Quy tắc ngủ an toàn, theo dõi lịch tiêm chủng đầy đủ theo chương trình tiêm chủng Việt Nam và chăm sóc sức khoẻ tinh thần người mẹ sau sinh.",
+      "filter": {
+        "age_range": "0–1"
+      }
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "question": "Phương pháp huấn luyện cảm xúc 5 bước và mô hình 'thùng cảm xúc' phù hợp với gia đình Việt Nam được triển khai ra sao?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "02.03",
+          "evidence": "Huấn luyện cảm xúc 5 bước và 'thùng cảm xúc' cho gia đình Việt"
+        }
+      ],
+      "expected_answer": "Gồm 5 bước nhận diện, gọi tên, thấu cảm, đặt giới hạn và cùng con giải quyết vấn đề, lấp đầy thùng cảm xúc yêu thương.",
+      "filter": null
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "question": "Khi xảy ra xung đột 3 bên (giữa anh em, bạn bè, hoặc giữa bố mẹ và con), 4 bước giải quyết và quy trình họp gia đình được thực hiện thế nào?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "02.04",
+          "evidence": "Xung đột 3 bên (anh em, bạn bè, bố mẹ–con): 4 bước giải quyết & họp gia đình"
+        }
+      ],
+      "expected_answer": "Áp dụng 4 bước giải quyết xung đột không bạo lực và tổ chức các buổi họp gia đình định kỳ để thống nhất giải pháp.",
+      "filter": null
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "question": "Các tình huống khó như trẻ ăn vạ ở siêu thị, nói dối, giấu điểm kiểm tra và khủng hoảng lúc 8h tối được xử lý ra sao?",
+      "gold": [
+        {
+          "source_id": "nuoi-day-con-2026",
+          "page": "02.05",
+          "evidence": "Ca khó: ăn vạ ở siêu thị, nói dối, giấu điểm, và 'con hư' lúc 8h tối"
+        }
+      ],
+      "expected_answer": "Nhận diện căn nguyên của từng ca khó (ăn vạ nơi công cộng, nói dối sợ phạt, giấu điểm) và áp dụng kịch bản xử lý bình tĩnh, dứt khoát.",
+      "filter": null
+    }
+  ],
+  "unanswerable_questions": [
+    {
+      "id": "q21_unans",
+      "split": "dev",
+      "type": "thieu_bang_chung",
+      "question": "Thủ tục xin visa du học F-1 cho học sinh THPT vào các trường nội trú Mỹ gồm những bước giấy tờ nào?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Tài liệu tập trung vào nuôi dạy con, phát triển tâm lý và giao tiếp gia đình, không chứa thông tin về thủ tục lãnh sự hoặc thị thực du học Mỹ."
+    },
+    {
+      "id": "q22_unans",
+      "split": "dev",
+      "type": "thieu_bang_chung",
+      "question": "Lịch tiêm phòng bắt buộc vaccine sốt vàng da (Yellow Fever) khi trẻ đi du lịch các nước châu Phi gồm mấy mũi?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Chương 03 mục 03.04 chỉ nêu lịch tiêm chủng mở rộng cơ bản tại Việt Nam (Lao, Viêm gan B, 6 trong 1, Sởi-Rubella), không có thông tin về vaccine sốt vàng da hay tiêm phòng du lịch quốc tế."
+    },
+    {
+      "id": "q23_unans",
+      "split": "test",
+      "type": "thieu_bang_chung",
+      "question": "Quy định về độ tuổi và các trường hợp tạm hoãn nghĩa vụ quân sự đối với học sinh, sinh viên theo Luật Nghĩa vụ quân sự năm 2025 là gì?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Tài liệu không bao gồm các văn bản quy phạm pháp luật về nghĩa vụ quân sự hay tiêu chuẩn tuyển quân."
+    },
+    {
+      "id": "q24_unans",
+      "split": "test",
+      "type": "thieu_bang_chung",
+      "question": "Hồ sơ và tiêu chuẩn mở tài khoản giao dịch chứng khoán đứng tên trẻ em dưới 15 tuổi tại các công ty chứng khoán Việt Nam?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Chương 06 mục 06.02 chỉ hướng dẫn dạy con quản lý tiền tiêu cá nhân qua quy tắc ba cái lọ, không có quy định pháp lý hay thủ tục mở tài khoản chứng khoán cho người chưa thành niên."
+    }
+  ]
+}

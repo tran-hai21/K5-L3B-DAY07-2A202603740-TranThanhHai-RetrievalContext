@@ -1,0 +1,1510 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Nguyên tắc kỷ luật gốc 3R trong tài liệu gồm những điều kiện nào theo đúng thứ tự?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "01.03",
+        "evidence": "Respectful — Tôn trọng"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_01.03_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.03",
+        "text": "### 1. Nguyên tắc kỷ luật gốc: 3R\n\nMọi hình thức kỷ luật đúng đắn và hiệu quả phải thoả ba điều kiện, theo đúng thứ tự:\n\n| | Nguyên tắc | Nội dung | Vi phạm phổ biến |\n|---|---|---|---|\n| **R1** | **Respectful — Tôn trọng** | Không làm nhục, không so sánh, không bêu trước người khác, không nhắc lại lỗi cũ như chứng cứ vĩnh viễn | Mắng trước lớp, đăng ảnh con ăn vạ lên nhóm gia đình, \"nhìn cái mặt A người ta kìa\" |\n| **R2** | **Reasonable — Hợp lý** | Hậu quả tương xứng, trẻ có thể chịu được, liên quan tới hành vi, và **trẻ biết trước quy định** | Vì con làm vỡ cốc → cắt cả tuần không được xem hoạt hình |\n| **R3** | **Revealed — Báo trước** | Con biết luật *trước khi* vi phạm, ở dạng con hiểu được | Bất ngờ \"phạt\" vì hành vi chưa ai từng nói là cấm |",
+        "metadata": {
+          "unit_id": "01.03",
+          "anchor": "doc-01-03",
+          "title": "Kỷ luật & cảm xúc — Quy tắc 3R, não hai tầng và điều khoản không điều kiện",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4922,
+          "word_count": 1050,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 759
+        },
+        "score": 0.032787,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_01.03_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.03",
+        "text": "## 01.03 · Kỷ luật & cảm xúc\n\n**Quy tắc 3R, não hai tầng và điều khoản không điều kiện**\n\n> `doc_id: 01.03` · `chapter: 01` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, bố, mẹ, người_chăm_sóc` · `loại: khung` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~9 phút` · `922 từ ≈ 1.84 trang` · `tags: ky_luat, 3r, khoa_hoc_nao, tu_dieu_hoa, dieu_khoan_khong_dieu_kien`",
+        "metadata": {
+          "unit_id": "01.03",
+          "anchor": "doc-01-03",
+          "title": "Kỷ luật & cảm xúc — Quy tắc 3R, não hai tầng và điều khoản không điều kiện",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4922,
+          "word_count": 1050,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 353
+        },
+        "score": 0.030415,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 10,
+          "lexical_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_02.01_sem_003",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.01",
+        "text": "1. **Rõ ràng trước, nghiêm sau.** Luật phải được nói trước và lặp lại; nghiêm khắc nằm ở *tính đều*, không nằm ở *cường độ*.\n2. **Kết nối → hiệu chỉnh.** Không giảng khi đang bão (xem `01.03`).\n3. **Hậu quả liên quan, không liên quan thì bỏ.** Phạt phải dính tới việc: đổ sữa → lau sữa; vứt đồ chơi → tạm nghỉ đồ chơi 30 phút; về muộn → hôm sau đi cùng bố.\n4. **Dạy kỹ năng thay thế.** Chặn hành vi xấu mà không cho cách làm khác = trẻ sẽ tìm cách xấu khác.\n5. **Nhìn được phần tốt.** Ghi nhận đúng hành vi bạn muốn thấy, ít nhất 4 lần/ngày (tỉ lệ 4:1 giữa tương tác tích cực và sửa sai là ngưỡng dự đoán hành vi tốt).",
+        "metadata": {
+          "unit_id": "02.01",
+          "anchor": "doc-02-01",
+          "title": "Kỷ luật tích cực — Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4558,
+          "word_count": 988,
+          "strategy": "by_paragraph",
+          "chunk_index": 3,
+          "char_len": 618
+        },
+        "score": 0.016129,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_01.03_sem_001 | NUOI-DAY-CON.md | page 01.03]\n## 01.03 · Kỷ luật & cảm xúc\n\n**Quy tắc 3R, não hai tầng và điều khoản không điều kiện**\n\n> `doc_id: 01.03` · `chapter: 01` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, bố, mẹ, người_chăm_sóc` · `loại: khung` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~9 phút` · `922 từ ≈ 1.84 trang` · `tags: ky_luat, 3r, khoa_hoc_nao, tu_dieu_hoa, dieu_khoan_khong_dieu_kien`",
+    "context_ids": [
+      "nuoi-day-con-2026_01.03_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 36.9
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Theo nghiên cứu, việc bế ẵm và đáp ứng nhanh khi trẻ sơ sinh khóc trong năm đầu tiên có khiến trẻ bị hư hay không?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "01.01",
+        "evidence": "Bế nhiều sẽ hư.\"** Ngược lại: nghiên cứu dọc nhiều thập kỷ cho thấy trẻ được đáp ứng nhanh, nhất quán trong 12 tháng đầu có xu hướng **tự lập sớm hơn**"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_03.01_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.01",
+        "text": "### 1. Khóc là ngôn ngữ, không phải hành vi cần \"sửa\"\n\nTrong 3 tháng đầu, trẻ khóc trung bình **2–3 giờ/ngày**, và đường cong khóc có hình chữ U: tăng từ 2–3 tuần, **đỉnh ở 6–8 tuần**, tự giảm mạnh từ 12 tuần. Đây là sinh lý, không phải \"do mẹ cho bú sai\" hay \"do ông bà bế nhiều\".\n\n**Khóc tím (Purple Crying)** — tên gọi cho giai đoạn khóc nhiều không rõ nguyên nhân:\n\n| Tiêu chí | Khóc bình thường | Khóc tím (cần được an ủi, không cần hoảng) |\n|---|---|---|\n| Thời điểm | Bất kỳ | Chiều/tối, khó hiểu |\n| Thời lượng | < 3 giờ/ngày | ≥ 3 giờ, ≥ 3 ngày/tuần, > 3 tuần |\n| Dỗ được không | Được | Gần như không, trẻ vẫn bú được sau đó |\n| Nguy hiểm | Không | Không tự nó nguy hiểm — nhưng là **nguyên nhân số 1** khiến người lớn lắc trẻ |",
+        "metadata": {
+          "unit_id": "03.01",
+          "anchor": "doc-03-01",
+          "title": "Ăn – Ngủ – Khóc — Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4725,
+          "word_count": 1012,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 737
+        },
+        "score": 0.031258,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 5,
+          "lexical_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_01.01_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.01",
+        "text": "### 1. Gắn bó là gì — và không phải là gì\n\nGắn bó (attachment) là **hệ thống báo động sinh học** trẻ dùng để giữ người chăm sóc ở gần khi gặp nguy hiểm. Trẻ khóc, bám, gọi với, nấp sau lưng mẹ — đó không phải \"làm nũng\", đó là hệ thống đang chạy đúng thiết kế.\n\nHai hiểu nhầm cần xoá ngay:\n\n- **\"Bế nhiều sẽ hư.\"** Ngược lại: nghiên cứu dọc nhiều thập kỷ cho thấy trẻ được đáp ứng nhanh, nhất quán trong 12 tháng đầu có xu hướng **tự lập sớm hơn**, vì các em không phải dành năng lượng để giám sát xem cha mẹ có đáng tin không.\n- **\"Gắn bó quyết định tất cả.\"** Không. Gắn bó là nền xác suất, không phải bản án. Kiểu gắn bó **có thể thay đổi** khi người chăm sóc thay đổi hành vi — đó chính là nội dung \"an earned security\" (sự an toàn đạt được về sau) mà chương này hướng tới.",
+        "metadata": {
+          "unit_id": "01.01",
+          "anchor": "doc-01-01",
+          "title": "Gắn bó — Lý thuyết gắn bó: 4 kiểu gắn bó và cách nhận ra kiểu của chính mình",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5012,
+          "word_count": 1117,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 777
+        },
+        "score": 0.030886,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 9,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_03.01_sem_007",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.01",
+        "text": "Trình tự thực tế: **ăn → thay → quấn → bế nghiêng + rì + rung → đặt cũi khi còn tỉnh nhưng đã relaxed (thở đều, tay duỗi)**. Đặt lúc đã ngủ hẳn thì trẻ sẽ khóc khi tỉnh giữa chu kỳ mà không có \"điều kiện ban đầu\" giống lúc ngủ.",
+        "metadata": {
+          "unit_id": "03.01",
+          "anchor": "doc-03-01",
+          "title": "Ăn – Ngủ – Khóc — Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4725,
+          "word_count": 1012,
+          "strategy": "by_paragraph",
+          "chunk_index": 7,
+          "char_len": 227
+        },
+        "score": 0.029572,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 3,
+          "lexical_rank": 13
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_03.01_sem_007 | NUOI-DAY-CON.md | page 03.01]\nTrình tự thực tế: **ăn → thay → quấn → bế nghiêng + rì + rung → đặt cũi khi còn tỉnh nhưng đã relaxed (thở đều, tay duỗi)**. Đặt lúc đã ngủ hẳn thì trẻ sẽ khóc khi tỉnh giữa chu kỳ mà không có \"điều kiện ban đầu\" giống lúc ngủ.",
+    "context_ids": [
+      "nuoi-day-con-2026_03.01_sem_007"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 31.38
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Vì sao khen trẻ bằng những câu như 'con giỏi quá' hay 'con thông minh quá' có thể gây tác động tiêu cực?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "01.04",
+        "evidence": "Khen thưởng đúng cách: vì sao 'giỏi quá' có thể làm trẻ kém đi"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_07.04_sem_003",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "07.04",
+        "text": "### 2. Vì sao con chiều theo nhóm (và cách \"cắm neo\")\n\nThí nghiệm kinh điển về tuân thủ cho thấy: chỉ cần **một** người khác không đồng tình, tỉ lệ a dua giảm mạnh. Nghĩa thực hành: trẻ có thể từ chối nếu **có sẵn câu nói + có một đồng minh**.",
+        "metadata": {
+          "unit_id": "07.04",
+          "anchor": "doc-07-04",
+          "title": "Bạn bè & áp lực nhóm — Bạn bè, áp lực nhóm và bắt nạt mạng: dạy con nói \"không\" mà không mất bạn",
+          "chapter": "07",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4598,
+          "word_count": 1002,
+          "strategy": "by_paragraph",
+          "chunk_index": 3,
+          "char_len": 243
+        },
+        "score": 0.029877,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 5,
+          "lexical_rank": 9
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_10.01_sem_010",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "10.01",
+        "text": "| Câu người khác nói | Vì sao hại | Câu bạn dùng (chọn 1) |\n|---|---|---|\n| \"Con nhà này chỉ giỏi ăn, dốt học\" | Ghi vào danh tính; trẻ tin theo khi nghe đủ 100 lần | \"Cháu đang cải thiện; bác hỏi cháu chuyện vẽ thì cháu nói nhiều lắm.\" |\n| \"Mẹ đẻ em bé rồi, mẹ thương em không thương con\" | Gây sợ mất vị trí, tạo thoái lui | Nói với con: \"Luật của nhà mình là con còn nhỏ vì 3 tuổi, con **cũng** được mẹ bế, và đây là giờ của riêng con.\" |\n| \"Con trai không được khóc\" | Triệt tiêu từ vựng cảm xúc của bé trai | \"Chú nói vậy là không đúng. Con trai cũng khóc. Khóc là người bình thường.\" (nói **với** con, để con nghe) |\n| \"Cho chú hôn/cháu ngồi lên đùi đi\" | Xóa ranh giới thân thể | \"Cháu không thích ạ. Cháu vẫy tay chào chú đây.\" |",
+        "metadata": {
+          "unit_id": "10.01",
+          "anchor": "doc-10-01",
+          "title": "Thế hệ & văn hoá — Ông bà, họ hàng và bất đồng thế hệ: 6 hợp đồng viết sẵn để không thành chiến tranh",
+          "chapter": "10",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5017,
+          "word_count": 1104,
+          "strategy": "by_paragraph",
+          "chunk_index": 10,
+          "char_len": 737
+        },
+        "score": 0.029514,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 4,
+          "lexical_rank": 12
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_01.04_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.04",
+        "text": "### 1. Ba loại \"thưởng\" và tác dụng ngược nhau\n\n| Loại | Ví dụ | Tác dụng dài hạn |\n|---|---|---|\n| **Khen gắn với người** (person praise) | \"Con giỏi quá!\", \"Con là thiên tài\" | Trẻ tin tài năng là bẩm sinh → tránh việc khó để giữ danh hiệu → **thành tích giảm** khi gặp thất bại đầu tiên |\n| **Khen gắn với quá trình** (process praise) | \"Mẹ thấy con thử 3 cách khác nhau trước khi bỏ\" | Trẻ tin năng lực lớn lên nhờ chiến lược/cố gắng → kiên trì hơn |\n| **Ghi nhận mô tả** (descriptive feedback) | \"Bức tranh có ba màu nóng ở giữa, chân nhân vật to hơn người\" | Trẻ tự đánh giá được tác phẩm của mình, không phụ thuộc phán quyết người lớn |",
+        "metadata": {
+          "unit_id": "01.04",
+          "anchor": "doc-01-04",
+          "title": "Khen thưởng & phần thưởng — Khen thưởng đúng cách: vì sao 'giỏi quá' có thể làm trẻ kém đi",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 3444,
+          "word_count": 736,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 643
+        },
+        "score": 0.029387,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 14,
+          "lexical_rank": 3
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_07.04_sem_003 | NUOI-DAY-CON.md | page 07.04]\n### 2. Vì sao con chiều theo nhóm (và cách \"cắm neo\")\n\nThí nghiệm kinh điển về tuân thủ cho thấy: chỉ cần **một** người khác không đồng tình, tỉ lệ a dua giảm mạnh. Nghĩa thực hành: trẻ có thể từ chối nếu **có sẵn câu nói + có một đồng minh**.",
+    "context_ids": [
+      "nuoi-day-con-2026_07.04_sem_003"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 30.09
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Khi người lớn mất bình tĩnh với con, nguyên tắc hạ tầng và kế hoạch ngắt quãng có vai trò gì?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "01.05",
+        "evidence": "Bình tĩnh của người lớn là hạ tầng: thang 5 nấc & kế hoạch ngắt quãng"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_02.01_sem_008",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.01",
+        "text": "| Tuổi | Năng lực thật | Công cụ chính | Sai lầm phổ biến |\n|---|---|---|---|\n| 0–2 | Chưa hiểu quy tắc, chưa ức chế xung động | **Di chuyển & babyproof**, đánh lạc hướng, không phạt | Đánh/vét má, bắt xin lỗi, phạt đứng — vô nghĩa, chỉ tạo sợ |\n| 2–3 | Hiểu câu ngắn, chưa tự chủ lâu | Cho 1 trong 2 lựa chọn, \"khi... thì...\", chuyển cảnh có báo trước, tạm nghỉ 2–3 phút *cùng người* | Giảng giải 5 phút, hỏi \"sao con làm thế\" (trẻ không trả lời được) |\n| 4–6 | Bắt đầu hiểu luật, thích \"làm người lớn\" | Hậu quả logic, bảng sao, giờ đặc biệt, vai \"phụ trách\" (trực nhật đồ chơi) | Luật thay đổi theo tâm trạng bố mẹ |\n| 7–11 | Hiểu công bằng, so sánh với bạn | Họp gia đình, hợp đồng behaviour, tiền tiêu & trách nhiệm, sửa sai có kế hoạch | Phạt tập thể, cắt quyền vô lý do dự |",
+        "metadata": {
+          "unit_id": "02.01",
+          "anchor": "doc-02-01",
+          "title": "Kỷ luật tích cực — Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4558,
+          "word_count": 988,
+          "strategy": "by_paragraph",
+          "chunk_index": 8,
+          "char_len": 781
+        },
+        "score": 0.027783,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 11,
+          "lexical_rank": 13
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_01.01_sem_004",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.01",
+        "text": "| Kiểu | Trẻ thể hiện | Cha mẹ thường thể hiện | Rủi ro nếu kéo dài |\n|---|---|---|---|\n| **An toàn** | Khóc khi người chăm sóc đi, mừng rõ khi trở lại, dùng cha mẹ làm \"bàn đạp\" để khám phá | Có mặt, đọc đúng tín hiệu, sửa sai nhanh sau xung đột | Thấp — đây là mục tiêu |\n| **Lo âu / ám ảnh** | Khóc dữ dội, khó dỗ, bám nhưng vẫn giận khi được bế, không dám rời tay mẹ | Đáp ứng *bất thường*: lúc nhiệt tình, lúc lạnh nhạt, lúc bận | Lo âu lan toả, tìm sự chú ý bằng khủng hoảng |\n| **Tránh / né tránh** | Ít khóc khi chia tay, \"tự xử\" mọi thứ, ít tìm kiếm khi đau | Phàn nàn khi trẻ cần, ưu tiên \"nín đi\", rút lại khi trẻ thể hiện nhu cầu | Khó diễn đạt cảm xúc, cô lập khi gặp khó |",
+        "metadata": {
+          "unit_id": "01.01",
+          "anchor": "doc-01-01",
+          "title": "Gắn bó — Lý thuyết gắn bó: 4 kiểu gắn bó và cách nhận ra kiểu của chính mình",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5012,
+          "word_count": 1117,
+          "strategy": "by_paragraph",
+          "chunk_index": 4,
+          "char_len": 686
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_01.05_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.05",
+        "text": "## 01.05 · Cha mẹ tự điều tiết\n\n**Bình tĩnh của người lớn là hạ tầng: thang 5 nấc & kế hoạch ngắt quãng**\n\n> `doc_id: 01.05` · `chapter: 01` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, bố, mẹ, ông_bà, người_chăm_sóc` · `loại: hướng dẫn` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~8 phút` · `715 từ ≈ 1.43 trang` · `tags: tu_dieu_hoa, giang_san, ngat_quang, suc_khoe_tam_than_me, trach_nhiem`",
+        "metadata": {
+          "unit_id": "01.05",
+          "anchor": "doc-01-05",
+          "title": "Cha mẹ tự điều tiết — Bình tĩnh của người lớn là hạ tầng: thang 5 nấc & kế hoạch ngắt quãng",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 3811,
+          "word_count": 847,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 385
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 1
+        },
+        "hit": true
+      }
+    ],
+    "context": "[nuoi-day-con-2026_01.01_sem_004 | NUOI-DAY-CON.md | page 01.01]\n| Kiểu | Trẻ thể hiện | Cha mẹ thường thể hiện | Rủi ro nếu kéo dài |\n|---|---|---|---|\n| **An toàn** | Khóc khi người chăm sóc đi, mừng rõ khi trở lại, dùng cha mẹ làm \"bàn đạp\" để khám phá | Có mặt, đọc đúng tín hiệu, sửa sai nhanh sau xung đột | Thấp — đây là mục tiêu |\n| **Lo âu / ám ảnh** | Khóc dữ dội, khó dỗ, bám nhưng vẫn giận khi được bế, không dám rời tay mẹ | Đáp ứng *bất thường*: lúc nhiệt tình, lúc lạnh nhạt, lúc bận | Lo âu lan toả, tìm sự chú ý bằng khủng hoảng |\n| **Tránh / né tránh** | Ít khóc khi chia tay, \"tự xử\" mọi thứ, ít tìm kiếm khi đau | Phàn nàn khi trẻ cần, ưu tiên \"nín đi\", rút lại khi trẻ thể hiện nhu cầu | Khó diễn đạt cảm xúc, cô lập khi gặp khó |",
+    "context_ids": [
+      "nuoi-day-con-2026_01.01_sem_004"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 30.99
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Khung 3C áp dụng trong kỷ luật tích cực gồm các trụ cột nào?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "02.01",
+        "evidence": "Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_02.01_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.01",
+        "text": "## 02.01 · Kỷ luật tích cực\n\n**Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi**\n\n> `doc_id: 02.01` · `chapter: 02` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: khung` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~11 phút` · `849 từ ≈ 1.70 trang` · `tags: ky_luat_tich_cuc, 3c, hau_qua_tu_nhien, lo_trinh_doc, tuoi_theo_giai_doan`",
+        "metadata": {
+          "unit_id": "02.01",
+          "anchor": "doc-02-01",
+          "title": "Kỷ luật tích cực — Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4558,
+          "word_count": 988,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 378
+        },
+        "score": 0.032266,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 3,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_01.03_sem_008",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.03",
+        "text": "### 4. Ma trận 4 góc phong cách nuôi dạy\n\nĐo nhà mình bằng hai trục: **ấm áp** (bao nhiêu tình cảm, bao nhiêu đối thoại) và **có cấu trúc** (bao nhiêu quy định, bao nhiêu nhất quán).\n\n| | Cấu trúc cao | Cấu trúc thấp |\n|---|---|---|\n| **Ấm áp cao** | **Dân chủ (dân chủ — mục tiêu):** luật rõ, giải thích được, con được nghe ý kiến. Kết quả tốt nhất trên mọi chỉ số dài hạn. | **Nuông chiều:** rất yêu, không giới hạn. Trẻ thiếu chịu frustr, đòi hỏi, dễ gục trước peer. |\n| **Ấm áp thấp** | **Độc đoán/áp đặt:** kỷ luật cứng, ít giải thích. Trẻ vâng lời bên ngoài, dễ lo âu/nói dối/giảm đánh giá bản thân. | **Bỏ mặc/lơ là:** thiếu cả yêu lẫn luật. Rủi ro cao nhất: hành vi lệch chuẩn, học lực, sức khỏe tâm thần. |\n\n**Bài kiểm tra 6 câu (chấm trung thực):**",
+        "metadata": {
+          "unit_id": "01.03",
+          "anchor": "doc-01-03",
+          "title": "Kỷ luật & cảm xúc — Quy tắc 3R, não hai tầng và điều khoản không điều kiện",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4922,
+          "word_count": 1050,
+          "strategy": "by_paragraph",
+          "chunk_index": 8,
+          "char_len": 758
+        },
+        "score": 0.030018,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2,
+          "lexical_rank": 12
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_08.02_sem_004",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "08.02",
+        "text": "### 3. Mục tiêu \"đủ gần\": hai loại sai lầm\n\n| Loại | Ví dụ | Sửa |\n|---|---|---|\n| Quá to + quá mơ hồ | \"Năm nay con học giỏi lên\" | Đổi thành hành vi đo được: \"mỗi tối 5 câu dạng sai nhiều nhất, 5 ngày/tuần, mẹ ký vở\" |\n| Quá nhỏ nhưng **phụ thuộc người khác** | \"Con phải vào đội tuyển\" | Chia 2 cột: **quyền kiểm soát của con** (3 buổi/tuần, nộp bài đúng hạn) và **kết quả** (được chọn) — chỉ thưởng theo cột 1 |\n\n**Công thức đặt mục tiêu 4 dòng** (áp dụng từ lớp 6):\n\n```\n1. Mục tiêu hành vi: mỗi ngày/tuần con làm gì, đo bằng gì?\n2. Người nhắc & phần cứng: gì dán ở đâu? ai chịu trách nhiệm?\n3. Ngày kiểm tra: ngày nào, 5 phút, nhìn số liệu hay nhìn cảm giác?\n4. Nếu trượt: bước nào nhỏ hơn 50%, không phải \"phạt con nặng hơn\"\n```",
+        "metadata": {
+          "unit_id": "08.02",
+          "anchor": "doc-08-02",
+          "title": "Động lực & kiên cường — Dạy con về não lớn lên: 8 câu đổi lời khen, và cách đặt mục tiêu \"đủ gần\"",
+          "chapter": "08",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4295,
+          "word_count": 965,
+          "strategy": "by_paragraph",
+          "chunk_index": 4,
+          "char_len": 735
+        },
+        "score": 0.02879,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 11,
+          "lexical_rank": 8
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_02.01_sem_001 | NUOI-DAY-CON.md | page 02.01]\n## 02.01 · Kỷ luật tích cực\n\n**Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi**\n\n> `doc_id: 02.01` · `chapter: 02` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: khung` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~11 phút` · `849 từ ≈ 1.70 trang` · `tags: ky_luat_tich_cuc, 3c, hau_qua_tu_nhien, lo_trinh_doc, tuoi_theo_giai_doan`",
+    "context_ids": [
+      "nuoi-day-con-2026_02.01_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 27.96
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Làm thế nào để đưa ra mệnh lệnh có hiệu lực để con thực sự lắng nghe và hợp tác?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "02.02",
+        "evidence": "Lệnh có hiệu lực: kỹ thuật nói để con nghe (và nghe để con nói)"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_02.01_sem_009",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.01",
+        "text": "| 12–14 | Cần quyền tự quyết & thể diện | Thương lượng 2 bước, hậu quả đã thống nhất, nói riêng không nói trước bạn bè | Bêu, thu điện thoại vô thời hạn, kiểm tra nhật ký |",
+        "metadata": {
+          "unit_id": "02.01",
+          "anchor": "doc-02-01",
+          "title": "Kỷ luật tích cực — Kỷ luật tích cực: 5 nguyên tắc trụ cột và khung 3C áp dụng từng tuổi",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4558,
+          "word_count": 988,
+          "strategy": "by_paragraph",
+          "chunk_index": 9,
+          "char_len": 172
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_02.02_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.02",
+        "text": "## 02.02 · Lệnh & hợp tác\n\n**Lệnh có hiệu lực: kỹ thuật nói để con nghe (và nghe để con nói)**\n\n> `doc_id: 02.02` · `chapter: 02` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: kịch bản/lời nói` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~10 phút` · `598 từ ≈ 1.20 trang` · `tags: giao_tiep, lenh, hien_thi_hoa, ky_nang_phuc_hoi, tuong_tac_tai_dien`",
+        "metadata": {
+          "unit_id": "02.02",
+          "anchor": "doc-02-02",
+          "title": "Lệnh & hợp tác — Lệnh có hiệu lực: kỹ thuật nói để con nghe (và nghe để con nói)",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 3328,
+          "word_count": 747,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 375
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_05.01_sem_009",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "05.01",
+        "text": "**Nguyên tắc làm việc với giáo viên:** (1) góp ý **riêng**, không đăng nhóm khi chưa nói; (2) nói bằng quan sát, không bằng quy kết (\"Cháu về kể bị bạn đẩy 3 hôm, cô giúp cháu xem giờ ra chơi nhé\" ≠ \"Lớp cô vô trách nhiệm\"); (3) luôn có **kênh văn bản** (email/sổ liên lạc) khi vấn đề là an toàn/bạo hành; (4) nếu vấn đề an toàn không được xử lý trong 1–2 tuần bằng văn bản → lên ban giám hiệu → phòng/sở giáo dục, và đổi trường. **Không bao giờ** im lặng chờ khi có nghi ngờ xâm hại.",
+        "metadata": {
+          "unit_id": "05.01",
+          "anchor": "doc-05-01",
+          "title": "Vào lớp & tách bố mẹ — Khóc khi vào lớp: lộ trình 4 tuần, tiêu chí chọn trường và cách làm việc với cô giáo",
+          "chapter": "05",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 6017,
+          "word_count": 1322,
+          "strategy": "by_paragraph",
+          "chunk_index": 9,
+          "char_len": 484
+        },
+        "score": 0.016129,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_02.01_sem_009 | NUOI-DAY-CON.md | page 02.01]\n| 12–14 | Cần quyền tự quyết & thể diện | Thương lượng 2 bước, hậu quả đã thống nhất, nói riêng không nói trước bạn bè | Bêu, thu điện thoại vô thời hạn, kiểm tra nhật ký |\n\n[nuoi-day-con-2026_02.02_sem_001 | NUOI-DAY-CON.md | page 02.02]\n## 02.02 · Lệnh & hợp tác\n\n**Lệnh có hiệu lực: kỹ thuật nói để con nghe (và nghe để con nói)**\n\n> `doc_id: 02.02` · `chapter: 02` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: kịch bản/lời nói` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~10 phút` · `598 từ ≈ 1.20 trang` · `tags: giao_tiep, lenh, hien_thi_hoa, ky_nang_phuc_hoi, tuong_tac_tai_dien`",
+    "context_ids": [
+      "nuoi-day-con-2026_02.01_sem_009",
+      "nuoi-day-con-2026_02.02_sem_001"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 36.63
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Trong giai đoạn sơ sinh 0-12 tháng, tam giác nào mô tả nhu cầu cốt lõi và cách dỗ trẻ khóc?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "03.01",
+        "evidence": "Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_03.01_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.01",
+        "text": "## 03.01 · Ăn – Ngủ – Khóc\n\n**Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh**\n\n> `doc_id: 03.01` · `chapter: 03` · `tuổi: 0–1` · `đối tượng: cha_mẹ, mẹ, bố, người_chăm_sóc` · `loại: hướng dẫn` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~12 phút` · `893 từ ≈ 1.79 trang` · `tags: so_sinh, khoc, gu_oc, 5s, dac_nhiem, triet_ly_hoc_giu_ngu`",
+        "metadata": {
+          "unit_id": "03.01",
+          "anchor": "doc-03-01",
+          "title": "Ăn – Ngủ – Khóc — Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4725,
+          "word_count": 1012,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 353
+        },
+        "score": 0.031778,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 5,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_03.01_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.01",
+        "text": "### 1. Khóc là ngôn ngữ, không phải hành vi cần \"sửa\"\n\nTrong 3 tháng đầu, trẻ khóc trung bình **2–3 giờ/ngày**, và đường cong khóc có hình chữ U: tăng từ 2–3 tuần, **đỉnh ở 6–8 tuần**, tự giảm mạnh từ 12 tuần. Đây là sinh lý, không phải \"do mẹ cho bú sai\" hay \"do ông bà bế nhiều\".\n\n**Khóc tím (Purple Crying)** — tên gọi cho giai đoạn khóc nhiều không rõ nguyên nhân:\n\n| Tiêu chí | Khóc bình thường | Khóc tím (cần được an ủi, không cần hoảng) |\n|---|---|---|\n| Thời điểm | Bất kỳ | Chiều/tối, khó hiểu |\n| Thời lượng | < 3 giờ/ngày | ≥ 3 giờ, ≥ 3 ngày/tuần, > 3 tuần |\n| Dỗ được không | Được | Gần như không, trẻ vẫn bú được sau đó |\n| Nguy hiểm | Không | Không tự nó nguy hiểm — nhưng là **nguyên nhân số 1** khiến người lớn lắc trẻ |",
+        "metadata": {
+          "unit_id": "03.01",
+          "anchor": "doc-03-01",
+          "title": "Ăn – Ngủ – Khóc — Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4725,
+          "word_count": 1012,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 737
+        },
+        "score": 0.031498,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 4,
+          "lexical_rank": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_03.04_sem_010",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.04",
+        "text": "### 3. Sức khoẻ tinh thần sau sinh — của **cả mẹ và bố**\n\nTrầm cảm sau sinh ảnh hưởng 10–15% bà mẹ, lo âu sau sinh ~10%, và **bố cũng có tỉ lệ 5–10%** (thường bị bỏ sót vì biểu hiện bằng cáu gắt và đi làm muộn về).\n\n**Tự sàng lọc (Edinburgh, bản dịch phổ biến)** — trả lời cho 7 ngày qua, mỗi câu 0–3 điểm: buồn bã, sợ hãi, mất ngủ, \"không thể đối xử đúng mức với con\", nghi ngờ bản thân, hoảng loạn, ý nghĩ làm hại bản thân.\n\n| Tổng điểm | Nên |\n|---|---|\n| ≥ 10 hoặc bất kỳ điểm nào ở câu \"làm hại bản thân\" | **Đi khám trong 1–2 tuần**; điểm cao không phải yếu đuối, và **không phải bạn mất quyền làm mẹ** |\n| Có ý nghĩ làm hại bản thân/con | **Ngay hôm nay**: gọi người thân ở cùng, gọi 115 hoặc đường dây hỗ trợ tâm thần, **không để bạn một mình với trẻ** |",
+        "metadata": {
+          "unit_id": "03.04",
+          "anchor": "doc-03-04",
+          "title": "An toàn giấc ngủ & y tế — Ngủ an toàn, lịch tiêm chủng Việt Nam, và sức khoẻ tinh thần sau sinh",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5975,
+          "word_count": 1340,
+          "strategy": "by_paragraph",
+          "chunk_index": 10,
+          "char_len": 762
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_03.01_sem_001 | NUOI-DAY-CON.md | page 03.01]\n## 03.01 · Ăn – Ngủ – Khóc\n\n**Tam giác Ăn–Ngủ–Khóc: hiểu quy luật khóc và 5 bước dỗ trẻ sơ sinh**\n\n> `doc_id: 03.01` · `chapter: 03` · `tuổi: 0–1` · `đối tượng: cha_mẹ, mẹ, bố, người_chăm_sóc` · `loại: hướng dẫn` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~12 phút` · `893 từ ≈ 1.79 trang` · `tags: so_sinh, khoc, gu_oc, 5s, dac_nhiem, triet_ly_hoc_giu_ngu`",
+    "context_ids": [
+      "nuoi-day-con-2026_03.01_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 28.97
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Lịch ăn dặm 12 tháng đầu đời cần lưu ý tránh những sai lầm phổ biến nào?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "03.02",
+        "evidence": "Sữa mẹ, sữa công thức và ăn dặm: lịch 12 tháng và 7 sai lầm hay gặp"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_03.03_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.03",
+        "text": "### 1. Đọc mốc cho đúng\n\nMốc phát triển là **cửa sổ**, không phải lịch thi. Hai nguyên tắc:\n\n- **Khoảng rộng:** 90% trẻ biết đi trong 9–15 tháng. Nói \"9 tháng đi được\" không có nghĩa là \"11 tháng chưa đi = chậm\".\n- **Xu hướng quan trọng hơn một điểm:** trẻ đang *thêm* kỹ năng mới mỗi 6–8 tuần thì gần như luôn ổn, kể cả khi chậm hơn bạn cùng tháng.",
+        "metadata": {
+          "unit_id": "03.03",
+          "anchor": "doc-03-03",
+          "title": "Phát triển vận động & vui chơi — Mốc phát triển 12 tháng: bảng đối chiếu, dấu hiệu đỏ và 20 trò chơi không cần đồ chơi đắt tiền",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5121,
+          "word_count": 1112,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 349
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_11.03_sem_005",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "11.03",
+        "text": "### 3. Sáu sai lầm phổ biến",
+        "metadata": {
+          "unit_id": "11.03",
+          "anchor": "doc-11-03",
+          "title": "Dinh dưỡng & vận động — Bữa ăn tuổi học đường: cân nặng thấp/béo, bữa sáng, đồ ăn nhanh và 60 phút vận động",
+          "chapter": "11",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4797,
+          "word_count": 1005,
+          "strategy": "by_paragraph",
+          "chunk_index": 5,
+          "char_len": 27
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_03.02_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.02",
+        "text": "## 03.02 · Dinh dưỡng\n\n**Sữa mẹ, sữa công thức và ăn dặm: lịch 12 tháng và 7 sai lầm hay gặp**\n\n> `doc_id: 03.02` · `chapter: 03` · `tuổi: 0–1` · `đối tượng: mẹ, bố, ông_bà, người_chăm_sóc` · `loại: hướng dẫn` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~13 phút` · `1,050 từ ≈ 2.10 trang` · `tags: dinh_duong, sua_me, an_dam, sat, vitamin_d, du_ung, tiem_chung_an_toan`",
+        "metadata": {
+          "unit_id": "03.02",
+          "anchor": "doc-03-02",
+          "title": "Dinh dưỡng — Sữa mẹ, sữa công thức và ăn dặm: lịch 12 tháng và 7 sai lầm hay gặp",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5395,
+          "word_count": 1191,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 366
+        },
+        "score": 0.016129,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 2
+        },
+        "hit": true
+      }
+    ],
+    "context": "[nuoi-day-con-2026_03.03_sem_002 | NUOI-DAY-CON.md | page 03.03]\n### 1. Đọc mốc cho đúng\n\nMốc phát triển là **cửa sổ**, không phải lịch thi. Hai nguyên tắc:\n\n- **Khoảng rộng:** 90% trẻ biết đi trong 9–15 tháng. Nói \"9 tháng đi được\" không có nghĩa là \"11 tháng chưa đi = chậm\".\n- **Xu hướng quan trọng hơn một điểm:** trẻ đang *thêm* kỹ năng mới mỗi 6–8 tuần thì gần như luôn ổn, kể cả khi chậm hơn bạn cùng tháng.\n\n[nuoi-day-con-2026_11.03_sem_005 | NUOI-DAY-CON.md | page 11.03]\n### 3. Sáu sai lầm phổ biến",
+    "context_ids": [
+      "nuoi-day-con-2026_03.03_sem_002",
+      "nuoi-day-con-2026_11.03_sem_005"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 22.93
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Ở giai đoạn trẻ 1-3 tuổi, cơn ăn vạ 2 tuổi có mấy pha diễn biến chính?",
+    "strategy": "hybrid_rrf",
+    "filter": {
+      "age_range": "1–3"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "04.02",
+        "evidence": "Cơn ăn vạ 2 tuổi: 3 pha, công thức phòng 5 phút và kịch bản xử lý tại nơi công cộng"
+      }
+    ],
+    "results": [],
+    "context": "",
+    "context_ids": [],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 22.84
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Chiến lược xử lý hành vi cắn và đánh ở trẻ nhỏ lứa tuổi 1-3 tuổi là gì?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "04.04",
+        "evidence": "Cắn và đánh ở trẻ nhỏ, cùng chiến lược chuẩn bị có em"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_04.04_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "04.04",
+        "text": "### 1. Cắn và đánh: bình thường về phát triển, không bình thường về chấp nhận\n\nDưới 3 tuổi, cắn/đánh/xé là **phản ứng khi hệ ngôn ngữ chưa theo kịp cảm xúc** — thường gặp nhất ở 15–30 tháng, ở nhà trẻ khi đồ chơi thiếu, khi chuyển cảnh, hoặc khi quá tải cảm giác. Trẻ không có ý \"làm người khác đau\" như một mục tiêu, nên cách xử lý phải nhắm vào **dừng hành vi + dạy thay thế**, không nhắm vào \"phải biết hối lỗi\".\n\n**Kịch bản 60 giây, bốn người liên quan:**",
+        "metadata": {
+          "unit_id": "04.04",
+          "anchor": "doc-04-04",
+          "title": "Cắn, đánh & em bé mới — Cắn và đánh ở trẻ nhỏ, cùng chiến lược chuẩn bị có em",
+          "chapter": "04",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4689,
+          "word_count": 1009,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 459
+        },
+        "score": 0.032522,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1,
+          "lexical_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_01.02_sem_004",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "01.02",
+        "text": "| Giác độ | Trẻ muốn gì | Dấu hiệu nhận ra | Cách đáp đúng hướng |\n|---|---|---|---|\n| **① Tìm cảm giác** (sensory) | Cơ thể được kích thích/được dễ chịu | Hành vi có nhịp: gõ, lắc, xoay, gãi, cắn móng tay; trẻ không dừng dù bị nhắc, dường như không nghe | Thay bằng hoạt động có nhịp hợp pháp: bóng đàn hồi, ghế có vòng cao su, 10 phút vận động nặng trước giờ ngồi học |\n| **② Tìm kết nối/được chú ý** (attention) | Được nhìn, được hướng về phía mình (kể cả bị mắng) | Hành vi tăng khi có người, giảm khi trẻ chơi một mình; nhìn bạn ngay sau khi làm | Cho chú ý *đúng giờ*: 10 phút đặc biệt mỗi ngày, khen cụ thể khi trẻ đang cư xử tốt; bỏ qua hành vi nhỏ, không an toàn |",
+        "metadata": {
+          "unit_id": "01.02",
+          "anchor": "doc-01-02",
+          "title": "Chẩn đoán hành vi — Bốn góc độ: đọc hành vi xấu như một nhà điều tra",
+          "chapter": "01",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4632,
+          "word_count": 1008,
+          "strategy": "by_paragraph",
+          "chunk_index": 4,
+          "char_len": 673
+        },
+        "score": 0.02879,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 11,
+          "lexical_rank": 8
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_04.04_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "04.04",
+        "text": "## 04.04 · Cắn, đánh & em bé mới\n\n**Cắn và đánh ở trẻ nhỏ, cùng chiến lược chuẩn bị có em**\n\n> `doc_id: 04.04` · `chapter: 04` · `tuổi: 1–3` · `đối tượng: cha_mẹ, người_chăm_sóc, ông_bà, giáo_viên` · `loại: hướng dẫn` · `độ khó: dễ` · `ưu tiên: nên đọc` · `~11 phút` · `876 từ ≈ 1.75 trang` · `tags: can, hanh_vi_aggressive, lanh_em, em_be_moi, dau_khi_thay_doi, giai_quyet_xung_dot_tre_nho`",
+        "metadata": {
+          "unit_id": "04.04",
+          "anchor": "doc-04-04",
+          "title": "Cắn, đánh & em bé mới — Cắn và đánh ở trẻ nhỏ, cùng chiến lược chuẩn bị có em",
+          "chapter": "04",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4689,
+          "word_count": 1009,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 391
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 1
+        },
+        "hit": true
+      }
+    ],
+    "context": "[nuoi-day-con-2026_04.04_sem_002 | NUOI-DAY-CON.md | page 04.04]\n### 1. Cắn và đánh: bình thường về phát triển, không bình thường về chấp nhận\n\nDưới 3 tuổi, cắn/đánh/xé là **phản ứng khi hệ ngôn ngữ chưa theo kịp cảm xúc** — thường gặp nhất ở 15–30 tháng, ở nhà trẻ khi đồ chơi thiếu, khi chuyển cảnh, hoặc khi quá tải cảm giác. Trẻ không có ý \"làm người khác đau\" như một mục tiêu, nên cách xử lý phải nhắm vào **dừng hành vi + dạy thay thế**, không nhắm vào \"phải biết hối lỗi\".\n\n**Kịch bản 60 giây, bốn người liên quan:**",
+    "context_ids": [
+      "nuoi-day-con-2026_04.04_sem_002"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 24.94
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Đối với trẻ mẫu giáo 3-6 tuổi, lộ trình thích ứng khi con khóc vào lớp học kéo dài bao lâu?",
+    "strategy": "hybrid_rrf",
+    "filter": {
+      "age_range": "3–6"
+    },
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "05.01",
+        "evidence": "Khóc khi vào lớp: lộ trình 4 tuần, tiêu chí chọn trường và cách làm việc với cô giáo"
+      }
+    ],
+    "results": [],
+    "context": "",
+    "context_ids": [],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 22.51
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Những trò chơi nào giúp rèn luyện chức năng điều hành não bộ và phân công việc nhà cho trẻ mẫu giáo?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "05.02",
+        "evidence": "10 trò chơi xây chức năng điều hành (executive function) và việc nhà theo tuổi"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_05.02_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "05.02",
+        "text": "## 05.02 · Chơi & chức năng điều hành\n\n**10 trò chơi xây chức năng điều hành (executive function) và việc nhà theo tuổi**\n\n> `doc_id: 05.02` · `chapter: 05` · `tuổi: 3–6` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: bộ công cụ` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~12 phút` · `931 từ ≈ 1.86 trang` · `tags: executive_function, tro_choi, tu_kiem_soat, hoat_dong_tri_giac, viec_nha, tu_lap`",
+        "metadata": {
+          "unit_id": "05.02",
+          "anchor": "doc-05-02",
+          "title": "Chơi & chức năng điều hành — 10 trò chơi xây chức năng điều hành (executive function) và việc nhà theo tuổi",
+          "chapter": "05",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4949,
+          "word_count": 1111,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 405
+        },
+        "score": 0.031545,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 6,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_03.03_sem_012",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.03",
+        "text": "**Ba quy tắc vàng cho mọi trò chơi:**\n1. **Trên sàn, không trên ghế/xe đẩy** — 15–20 phút sàn/ngày cho trẻ < 6 tháng, tăng dần.\n2. **Trẻ dẫn, bạn thêm một chút** (follow the lead): nếu con chỉ thích lật hộp, hãy lật cùng rồi *thêm* một động tác nhỏ.\n3. **Tắt màn hình.** WHO & AAP khuyến nghị **không màn hình cho trẻ < 18–24 tháng** (trừ video call ngắn với người thân) — trẻ học từ người thật, không học từ màn hình ở giai đoạn này.",
+        "metadata": {
+          "unit_id": "03.03",
+          "anchor": "doc-03-03",
+          "title": "Phát triển vận động & vui chơi — Mốc phát triển 12 tháng: bảng đối chiếu, dấu hiệu đỏ và 20 trò chơi không cần đồ chơi đắt tiền",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5121,
+          "word_count": 1112,
+          "strategy": "by_paragraph",
+          "chunk_index": 12,
+          "char_len": 434
+        },
+        "score": 0.016393,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_02.04_sem_007",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "02.04",
+        "text": "### 5. Khi trẻ méc bạn/ méc thầy cô\n\nBa tầng kiểm tra trước khi hành động:\n\n1. **Cảm xúc:** \"Con kể để mẹ nghe, hay mẹ giúp con làm gì đó?\"\n2. **Facts:** tách 3 câu — \"chuyện gì xảy ra\", \"ai khác thấy\", \"con chắc chắn bao nhiêu %\" — tránh \"con nói đúng là...\" vì trẻ hay suy diễn từ cảm giác.\n3. **Phân loại phản ứng:** trêu chọc xã hội (dạy kỹ năng + cho phép con thử 1 tuần) / vi phạm nội quy lặp lại (gặp giáo viên, dùng 4 bước mục 2, xin cụ thể thay đổi) / xâm hại, bắt nạt có tổ chức, phân biệt đối xử (báo nhà trường **bằng văn bản**, lưu chứng cứ, không chỉ \"nhờ cô nói giúp\").",
+        "metadata": {
+          "unit_id": "02.04",
+          "anchor": "doc-02-04",
+          "title": "Xung đột & hợp tác — Xung đột 3 bên (anh em, bạn bè, bố mẹ–con): 4 bước giải quyết & họp gia đình",
+          "chapter": "02",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4603,
+          "word_count": 1017,
+          "strategy": "by_paragraph",
+          "chunk_index": 7,
+          "char_len": 584
+        },
+        "score": 0.016129,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "lexical_rank": 2
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_05.02_sem_001 | NUOI-DAY-CON.md | page 05.02]\n## 05.02 · Chơi & chức năng điều hành\n\n**10 trò chơi xây chức năng điều hành (executive function) và việc nhà theo tuổi**\n\n> `doc_id: 05.02` · `chapter: 05` · `tuổi: 3–6` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: bộ công cụ` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~12 phút` · `931 từ ≈ 1.86 trang` · `tags: executive_function, tro_choi, tu_kiem_soat, hoat_dong_tri_giac, viec_nha, tu_lap`",
+    "context_ids": [
+      "nuoi-day-con-2026_05.02_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 24.87
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Khoa học não bộ giải thích thế nào về những hành vi kỳ quặc của con ở độ tuổi thiếu niên 10-14 tuổi?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "07.01",
+        "evidence": "Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_07.01_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "07.01",
+        "text": "## 07.01 · Khoa học não bộ\n\n**Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con**\n\n> `doc_id: 07.01` · `chapter: 07` · `tuổi: 10–14` · `đối tượng: cha_mẹ, bố, mẹ, người_chăm_sóc, giáo_viên` · `loại: hướng dẫn` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~12 phút` · `798 từ ≈ 1.60 trang` · `tags: khoa_hoc_nao, dai_thi, he_dopamine, camlanh_ky, quyet_dinh_rui_ro, thoi_tiet_dan_them`",
+        "metadata": {
+          "unit_id": "07.01",
+          "anchor": "doc-07-01",
+          "title": "Khoa học não bộ — Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con",
+          "chapter": "07",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4293,
+          "word_count": 929,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 403
+        },
+        "score": 0.032787,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_07.01_sem_003",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "07.01",
+        "text": "| Sự thật thần kinh | Trẻ 10–14 thể hiện ra | Việc của bạn |\n|---|---|---|\n| **Tái cấu trúc vỏ não trước trán**: \"cắt tỉa\" synapse + myelin hoá, xử lý chậm hơn, ưu tiên phản xạ cảm xúc | Bồng bột, quên, trả lời cộc, quyết rồi mới nghĩ | Đừng hỏi \"sao con làm thế?\" — hỏi \"con định làm gì tiếp?\" |\n| **Hệ dopamine nhạy hơn**: phần thưởng mới mạnh hơn, quen thuộc nhàm hơn | Nghiện game/short-video, thích cái mới, chán học | Cung cấp phần thưởng **hợp pháp**: thử thách mới, kỹ năng mới, bạn mới, \"được giao việc\" |\n| **Nhạy cảm xã hội đạt đỉnh**: đánh giá của bạn > đánh giá của bố mẹ (không phải tình thương hết, mà là *độ khuếch đại*) | Sợ mất mặt, chạy theo nhóm, \"bố/mẹ làm mất mặt con\" | **Không** dạy đạo đức trước mặt bạn của con; mọi sửa sai: riêng tư |",
+        "metadata": {
+          "unit_id": "07.01",
+          "anchor": "doc-07-01",
+          "title": "Khoa học não bộ — Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con",
+          "chapter": "07",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4293,
+          "word_count": 929,
+          "strategy": "by_paragraph",
+          "chunk_index": 3,
+          "char_len": 761
+        },
+        "score": 0.030214,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2,
+          "lexical_rank": 11
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_12.03_sem_003",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "12.03",
+        "text": "| # | Câu hỏi | Trả lời gọn |\n|---|---|---|\n| 1 | Có phải tôi làm hỏng con rồi không? | Không. Não bộ trẻ tiếp tục hoàn thiện tới ~25 tuổi; kỹ thuật được dùng **đều** 4–8 tuần tạo thay đổi đo được. Điều cần lo là tiếp tục làm y như cũ. |\n| 2 | Có nên đánh không? | Không, và không có \"ngoại lệ phổ biến\". Đòn roi dạy sợ + đối phó, tăng hành vi gây hấn; nếu bạn đã đánh, làm đúng 4 bước sửa sai (`01.05`) — xin lỗi không làm mất uy quyền. |\n| 3 | Nhượng bộ khi con khóc thì sao? | Nhượng bộ **hành vi** = củng cố. Nhượng bộ **cảm xúc** (bế, ôm, nói) = xây dựng. Mục tiêu: ấm áp không điều kiện, giới hạn có điều kiện. |\n| 4 | Khi nào nên ngừng phạt? | Ngừng **phạt** càng sớm càng tốt; ngừng **hậu quả logic** chỉ khi hành vi đã thành thói quen (2–3 tuần ổn định). |",
+        "metadata": {
+          "unit_id": "12.03",
+          "anchor": "doc-12-03",
+          "title": "Câu hỏi thường gặp & khi nào cần giúp đỡ — 20 câu hỏi thường gặp, 8 ngưỡng phải đi khám, và danh mục nguồn tham khảo",
+          "chapter": "12",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 8811,
+          "word_count": 1968,
+          "strategy": "by_paragraph",
+          "chunk_index": 3,
+          "char_len": 765
+        },
+        "score": 0.030159,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 3,
+          "lexical_rank": 10
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_07.01_sem_001 | NUOI-DAY-CON.md | page 07.01]\n## 07.01 · Khoa học não bộ\n\n**Não tuổi teen đang xây lại: 5 điều giải thích mọi hành vi kỳ quặc của con**\n\n> `doc_id: 07.01` · `chapter: 07` · `tuổi: 10–14` · `đối tượng: cha_mẹ, bố, mẹ, người_chăm_sóc, giáo_viên` · `loại: hướng dẫn` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~12 phút` · `798 từ ≈ 1.60 trang` · `tags: khoa_hoc_nao, dai_thi, he_dopamine, camlanh_ky, quyet_dinh_rui_ro, thoi_tiet_dan_them`",
+    "context_ids": [
+      "nuoi-day-con-2026_07.01_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 25.92
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Đâu là 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu tai nạn trẻ em cần biết trong gia đình?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "11.01",
+        "evidence": "Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết"
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_11.01_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "11.01",
+        "text": "## 11.01 · An toàn & sơ cứu\n\n**Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết**\n\n> `doc_id: 11.01` · `chapter: 11` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, ông_bà, giáo_viên` · `loại: checklist` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~14 phút` · `1,087 từ ≈ 2.17 trang` · `tags: an_toan, soc_cuu, ngat_tho, ng_doc, bong, sieuthi, xe_o_to, 115`",
+        "metadata": {
+          "unit_id": "11.01",
+          "anchor": "doc-11-01",
+          "title": "An toàn & sơ cứu — Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết",
+          "chapter": "11",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5752,
+          "word_count": 1228,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 411
+        },
+        "score": 0.032787,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_11.01_sem_003",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "11.01",
+        "text": "### 2. Tám khu vực nguy hiểm theo tuổi",
+        "metadata": {
+          "unit_id": "11.01",
+          "anchor": "doc-11-01",
+          "title": "An toàn & sơ cứu — Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết",
+          "chapter": "11",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5752,
+          "word_count": 1228,
+          "strategy": "by_paragraph",
+          "chunk_index": 3,
+          "char_len": 38
+        },
+        "score": 0.032258,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2,
+          "lexical_rank": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_11.01_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "11.01",
+        "text": "### 1. Sự thật nên nói thẳng\n\nỞ Việt Nam, **tai nạn thương tích** là nguyên nhân tử vong hàng đầu ở trẻ em (đuối nước, giao thông, ngã, bỏng, ngộ độc) — không phải bệnh truyền nhiễm. Vì vậy phần lớn \"nuôi dạy\" là **kiến tạo môi trường**, chứ không phải dạy con cẩn thận.",
+        "metadata": {
+          "unit_id": "11.01",
+          "anchor": "doc-11-01",
+          "title": "An toàn & sơ cứu — Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết",
+          "chapter": "11",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5752,
+          "word_count": 1228,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 270
+        },
+        "score": 0.030331,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 4,
+          "lexical_rank": 8
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_11.01_sem_001 | NUOI-DAY-CON.md | page 11.01]\n## 11.01 · An toàn & sơ cứu\n\n**Tai nạn là nguyên nhân tử vong hàng đầu ở trẻ: 8 khu vực nguy hiểm và 7 kỹ thuật sơ cứu phải biết**\n\n> `doc_id: 11.01` · `chapter: 11` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, ông_bà, giáo_viên` · `loại: checklist` · `độ khó: vừa` · `ưu tiên: bắt đọc` · `~14 phút` · `1,087 từ ≈ 2.17 trang` · `tags: an_toan, soc_cuu, ngat_tho, ng_doc, bong, sieuthi, xe_o_to, 115`\n\n[nuoi-day-con-2026_11.01_sem_003 | NUOI-DAY-CON.md | page 11.01]\n### 2. Tám khu vực nguy hiểm theo tuổi",
+    "context_ids": [
+      "nuoi-day-con-2026_11.01_sem_001",
+      "nuoi-day-con-2026_11.01_sem_003"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 24.89
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Quy tắc '2 tuần hoặc đổi cách' áp dụng như thế nào trong quy trình 72 giờ sửa đổi hành vi?",
+    "strategy": "hybrid_rrf",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "nuoi-day-con-2026",
+        "page": "12.01",
+        "evidence": "72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\""
+      }
+    ],
+    "results": [
+      {
+        "id": "nuoi-day-con-2026_12.01_sem_001",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "12.01",
+        "text": "## 12.01 · Kế hoạch hành động\n\n**Kế hoạch 72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\"**\n\n> `doc_id: 12.01` · `chapter: 12` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: bộ công cụ` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~11 phút` · `832 từ ≈ 1.66 trang` · `tags: ke_hoach_72_gio, do_luong, cong_cu, thay_doi_hanh_vi, quy_tac_2_tuan, bao_cao_gia_dinh`\n\n> **Quy tắc nền:** 1 hành vi – 1 người chịu trách nhiệm – 1 kỹ thuật – đo mỗi ngày – **2 tuần hoặc đổi cách, không tăng hình phạt**.",
+        "metadata": {
+          "unit_id": "12.01",
+          "anchor": "doc-12-01",
+          "title": "Kế hoạch hành động — Kế hoạch 72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\"",
+          "chapter": "12",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4640,
+          "word_count": 1057,
+          "strategy": "by_paragraph",
+          "chunk_index": 1,
+          "char_len": 553
+        },
+        "score": 0.032787,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 1,
+          "lexical_rank": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "nuoi-day-con-2026_12.01_sem_005",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "12.01",
+        "text": "| **48–72h** | Rà 10 phút: có gì thay đổi? Điều gì khó thi hành? Sửa **một** biến số: giờ giấc (bổ sung ăn nhẹ?), phần thưởng (đổi thứ?), hay người gánh (đổi người?) | Không sửa 2 biến cùng lúc |\n| **Ngày 7** | Đọc số liệu. Nếu hành vi giảm ≥ 25%: giữ nguyên, tăng phần thưởng lên \"đặc quyền\". Nếu không đổi: **đổi góc độ** (thử giả thuyết khác ở `01.02`) | Đây là quyết định kỹ thuật, không phải quyết định đạo đức |\n| **Ngày 14** | Kết luận: kỹ thuật này **được** (chuyển sang hành vi khác) hay **bỏ** (chọn cách khác). Ghi lại để lần sau khỏi lặp sai lầm | Kỹ thuật bỏ được không phải thất bại |",
+        "metadata": {
+          "unit_id": "12.01",
+          "anchor": "doc-12-01",
+          "title": "Kế hoạch hành động — Kế hoạch 72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\"",
+          "chapter": "12",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 4640,
+          "word_count": 1057,
+          "strategy": "by_paragraph",
+          "chunk_index": 5,
+          "char_len": 598
+        },
+        "score": 0.029877,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 9,
+          "lexical_rank": 5
+        },
+        "hit": false
+      },
+      {
+        "id": "nuoi-day-con-2026_03.03_sem_002",
+        "source_id": "nuoi-day-con-2026",
+        "source": "NUOI-DAY-CON.md",
+        "page": "03.03",
+        "text": "### 1. Đọc mốc cho đúng\n\nMốc phát triển là **cửa sổ**, không phải lịch thi. Hai nguyên tắc:\n\n- **Khoảng rộng:** 90% trẻ biết đi trong 9–15 tháng. Nói \"9 tháng đi được\" không có nghĩa là \"11 tháng chưa đi = chậm\".\n- **Xu hướng quan trọng hơn một điểm:** trẻ đang *thêm* kỹ năng mới mỗi 6–8 tuần thì gần như luôn ổn, kể cả khi chậm hơn bạn cùng tháng.",
+        "metadata": {
+          "unit_id": "03.03",
+          "anchor": "doc-03-03",
+          "title": "Phát triển vận động & vui chơi — Mốc phát triển 12 tháng: bảng đối chiếu, dấu hiệu đỏ và 20 trò chơi không cần đồ chơi đắt tiền",
+          "chapter": "03",
+          "age_range": "mọi tuổi",
+          "audience": "cha_mẹ",
+          "content_type": "hướng dẫn",
+          "priority": "recommended",
+          "char_count": 5121,
+          "word_count": 1112,
+          "strategy": "by_paragraph",
+          "chunk_index": 2,
+          "char_len": 349
+        },
+        "score": 0.016129,
+        "retriever": "hybrid_rrf",
+        "ranks": {
+          "dense_rank": 2
+        },
+        "hit": false
+      }
+    ],
+    "context": "[nuoi-day-con-2026_12.01_sem_001 | NUOI-DAY-CON.md | page 12.01]\n## 12.01 · Kế hoạch hành động\n\n**Kế hoạch 72 giờ sửa một hành vi: mẫu điền, lịch theo dõi và quy tắc \"2 tuần hoặc đổi cách\"**\n\n> `doc_id: 12.01` · `chapter: 12` · `tuổi: mọi tuổi` · `đối tượng: cha_mẹ, người_chăm_sóc, giáo_viên` · `loại: bộ công cụ` · `độ khó: dễ` · `ưu tiên: bắt đọc` · `~11 phút` · `832 từ ≈ 1.66 trang` · `tags: ke_hoach_72_gio, do_luong, cong_cu, thay_doi_hanh_vi, quy_tac_2_tuan, bao_cao_gia_dinh`\n\n> **Quy tắc nền:** 1 hành vi – 1 người chịu trách nhiệm – 1 kỹ thuật – đo mỗi ngày – **2 tuần hoặc đổi cách, không tăng hình phạt**.",
+    "context_ids": [
+      "nuoi-day-con-2026_12.01_sem_001"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 24.97
+  }
+]

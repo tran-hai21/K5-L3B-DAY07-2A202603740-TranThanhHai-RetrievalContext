@@ -1,0 +1,38 @@
+[
+  {
+    "id": "q21_unans",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Thủ tục xin visa du học F-1 cho học sinh THPT vào các trường nội trú Mỹ gồm những bước giấy tờ nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu tập trung vào nuôi dạy con, phát triển tâm lý và giao tiếp gia đình, không chứa thông tin về thủ tục lãnh sự hoặc thị thực du học Mỹ."
+  },
+  {
+    "id": "q22_unans",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Lịch tiêm phòng bắt buộc vaccine sốt vàng da (Yellow Fever) khi trẻ đi du lịch các nước châu Phi gồm mấy mũi?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 03 mục 03.04 chỉ nêu lịch tiêm chủng mở rộng cơ bản tại Việt Nam (Lao, Viêm gan B, 6 trong 1, Sởi-Rubella), không có thông tin về vaccine sốt vàng da hay tiêm phòng du lịch quốc tế."
+  },
+  {
+    "id": "q23_unans",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Quy định về độ tuổi và các trường hợp tạm hoãn nghĩa vụ quân sự đối với học sinh, sinh viên theo Luật Nghĩa vụ quân sự năm 2025 là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không bao gồm các văn bản quy phạm pháp luật về nghĩa vụ quân sự hay tiêu chuẩn tuyển quân."
+  },
+  {
+    "id": "q24_unans",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Hồ sơ và tiêu chuẩn mở tài khoản giao dịch chứng khoán đứng tên trẻ em dưới 15 tuổi tại các công ty chứng khoán Việt Nam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 06 mục 06.02 chỉ hướng dẫn dạy con quản lý tiền tiêu cá nhân qua quy tắc ba cái lọ, không có quy định pháp lý hay thủ tục mở tài khoản chứng khoán cho người chưa thành niên."
+  }
+]

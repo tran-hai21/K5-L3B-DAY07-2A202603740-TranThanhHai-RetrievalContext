@@ -1,6 +1,8 @@
 .venv/
+.packages/
 __pycache__/
 *.pyc
+*.npy
 .env
 .env.*
 !.env.example
